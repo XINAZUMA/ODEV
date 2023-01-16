@@ -27,7 +27,7 @@ namespace ödevvv
             {
                 MessageBox.Show(" Boş Bilgi Girmeyiniz");
             }
-            else if (ad == "admin" && sifre == "123456")
+            else if (ad == "admin" && sifre == "admin")
             {
                 MessageBox.Show("İşlem Başarılı Lütfen Bekleyiniz");
                 form2.Show();

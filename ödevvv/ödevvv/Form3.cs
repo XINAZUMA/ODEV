@@ -12,6 +12,7 @@ namespace ödevvv
 {
     public partial class Form3 : Form
     {
+      
         public Form3()
         {
             InitializeComponent();
@@ -50,6 +51,13 @@ namespace ödevvv
             textBox3.Text = Convert.ToString(dogru);
             textBox2.Text = Convert.ToString(yanlıs);
             textBox1.Text = Convert.ToString(oran);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Close();
         }
     }
 }
